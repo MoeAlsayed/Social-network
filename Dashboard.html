@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Dashboard.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="bg">
+        <header>
+            <h3>XAPP</h3>
+        </header>
+        <main>
+            <div class="profileBox">
+                <img src="images/profile.jpeg" alt="">
+                <div>
+                    <h3 id='userName'>Myrtle Reid</h3>
+                    <span id="userState">online</span>
+                </div>
+                <ul class="linksGroup userProfileLinks">
+                    <li>
+                        <a href="#">Profile</a>
+                    </li>
+                    <li>
+                        <a href="#">Friends</a>
+                    </li>
+                    <li>
+                        <a href="#">Events</a>
+                    </li>
+                    <li>
+                        <a href="#">Groups</a>
+                    </li>
+                    <li>
+                        <a href="#">Shop</a>
+                    </li>
+                </ul>
+                <ul class='userProfileSetting'>
+                    <li>
+                        <a href="#">Settings</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="postBox">
+                <div class="inputBox">
+
+                    <form action="" id="myForm">
+
+                        <input class="postInput" type="text" name="" id="" placeholder="What’s on your mind, Myrtle?">
+                        <label for="uploadImge">
+                            <input type="submit" value="post">
+
+                            <input type="file" id="uploadImge" accept="images/*">
+                        </label>
+
+                        <img id="preview-img" src="" alt="">
+
+                    </form>
+
+                </div>
+
+                <div class="list">
+                    <!-- <img src="" alt=""> -->
+                </div>
+                <div class='PostsArea'>
+                    <div class="post">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus est numquam, culpa reiciendis
+                            fuga itaque, aut magni eveniet obcaecati consequatur quaerat eos dolores perspiciatis perferendis
+                            aperiam neque totam mollitia porro. Quae aspernatur commodi voluptas aut soluum placeat nulla
+                            pariatur eaque molestiae labore ipsam.</p>
+                        <div class='postInfo'>
+                            <img src="images/Profile.jpeg" alt="">
+                            <h3>Myrtle Reid</h3>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <img src="images/post1.jpeg" alt="">
+                        <div class='postInfo'>
+                            <img src="images/Profile.jpeg" alt="">
+                            <h3>Myrtle Reid</h3>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <img src="images/post1.jpeg" alt="">
+                        <div class='postInfo'>
+                            <img src="images/Profile.jpeg" alt="">
+                            <h3>Myrtle Reid</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="appsBox">
+                <ul class='linksGroup'>
+                    <li>
+                        <a href="">Chat</a>
+                    </li>
+                    <li>
+                        <a href="">Projects</a>
+                    </li>
+                    <li>
+                        <a href="">Timeline</a>
+                    </li>
+                    <li>
+                        <a href="">Random Word</a>
+                    </li>
+                    <li>
+                        <a href="">Dogs and Cats</a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    <script src="src/main.js"></script>
+    <script src="Dashboard.js"></script>
+</body>
+
+</html>

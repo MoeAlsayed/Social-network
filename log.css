@@ -1,0 +1,53 @@
+body{
+    background-image: url(images/Rectangle_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+.logo{
+    text-align: center;
+}
+.logo>a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #fff;
+}
+main{
+    padding-top: 200px;
+}
+.loginbox{
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px auto 0px auto;
+    background: #fff;
+}
+.box-body{
+    padding: 30px;
+    
+}
+.box-header{
+    width: 100%;
+}
+.box-header>h2{
+    display: inline;    
+}
+.box-header>i{
+    text-align: right;
+    font-size: 10px;
+}
+.inValue{
+    height: 1.3em;
+    letter-spacing: 3px;
+    width: 100%;
+}
+.submit{
+    background-color: #007BFF;
+    border-radius: 2px;
+    border-bottom-style: none;
+    text-align: center;
+    width: 130px;
+    height: 20px;
+    font-size: 10px;
+    color: #fff;
+}

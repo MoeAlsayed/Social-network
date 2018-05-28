@@ -1,0 +1,147 @@
+* ,body{
+    margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    padding: 0 100px 0 100px; 
+}
+.bg{
+    background: rgb(250, 246, 246);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+header{
+    padding: 30px;
+
+}
+header>h3{
+    font-size: 1.3em;
+}
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+.profileBox, .appsBox{
+    width: 16%;
+    padding:80px 20px ;
+}
+.profileBox>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;           
+}
+.profileBox>div{
+    display:inline-block;
+    height: 100px;
+    vertical-align: top;
+    text-align: center;
+}
+.profileBox>div>h3{
+    margin-top: 60%;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    }
+    .profileBox>div>span{
+        color: #555;
+        font-size: 0.7em;
+    }
+.postBox{
+    margin: 50px 20px;
+    width: 60%;    
+}
+.userProfileSublink{
+    padding: 10px;
+}
+.userProfileSublink>li{
+    margin: 10px;
+}
+.userProfileLinks li a{
+    color: #393F45;
+    font-size: 20px;
+}
+.userProfileSetting{
+    margin-top: 41px;
+}
+.userProfileSetting li a{
+    color: rgba(57, 63, 69, 0.5);
+    font-size: 14;
+}
+.inputBox{
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px 10px rgb(207, 204, 204);
+    
+}
+.inputBox>input[type='text']{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #DDDDDD;
+    padding:5px;
+    
+}
+.inputBox>button{
+    background: none;
+    width: 200px;
+    border: 1px solid #DDDDDD;
+    border-radius: 22px;
+    
+}
+.post{
+    width: 70%;
+    margin: 20px auto;
+    border: 1px solid rgb(175, 172, 172);
+    background: #fff;
+    box-shadow: 3px 3px 10px rgb(226, 223, 223);
+}
+.post>img{
+    width: 100%;
+    height: auto;
+}
+.post>p{
+    margin: 10px;
+    text-align: justify;
+
+}
+.post>.postInfo{
+    padding: 10px 10px 3px 10px;
+    text-align: left;
+}
+.post>.postInfo>img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.post>.postInfo>h3{
+    display: inline-block;
+    line-height: 40px;
+    vertical-align: top;
+    font-size: 0.8em;
+}
+.linksGroup{
+    width: 100%;
+    margin: 30px 0;
+    letter-spacing: 3px;
+}
+.linksGroup>li{
+    padding: 15px;
+    border-bottom: 1px solid rgb(170, 168, 168);
+}

@@ -1,0 +1,102 @@
+
+html body {
+    min-height: 100%
+}
+body{
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-link{
+    margin-right: 20px;
+    display: block;
+
+}
+header,main {
+    position: fixed;
+    z-index: 10;
+    color: #fff;
+}
+header{
+    width: 100%;
+}
+main{
+    margin-top: 200px;
+    padding: 20px;
+
+}
+.navbar{
+    border-bottom: 1px solid #fff;
+}
+.navbar-nav .nav-link, a.navbar-brand{
+    color: #fff;
+}
+.nav-link.disabled{
+    color: #fff;
+}
+i{
+    padding: 15px;
+}
+.carousel.slide{
+    z-index: 1;
+}
+.collapse .form-inline {
+    display: -ms-flexbox;
+    margin-left: 500px;
+}
+
+h1{
+    /* Keep Your Files In S */
+
+position: absolute;
+margin-top: 7%;
+margin-left: 5%;
+padding: 15px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+line-height: 35px;
+font-size: 33px;
+letter-spacing: 1.2807px;
+
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+p{
+margin-top: 30%;
+margin-left: 5%;
+padding: 20px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: 27px;
+font-size: 25px;
+letter-spacing: -0.438596px;
+
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.7;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+.registerBox a{
+padding: 20px;
+margin-top: 10%;
+margin-left: 5%;
+font-size: 1em;
+}
+
+.registerButton{
+background-color: rgba(255, 255, 255, 0);
+color: #fff;
+border-radius: 33px;
+margin-left: 5%;
+border-color: #DDDDDD;
+
+}
+
+

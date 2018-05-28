@@ -1,0 +1,104 @@
+{
+    "users":[
+        {
+            "id":1,
+            "first_name":"Gerik",
+            "last_name":"Tretter",
+            "email":"gtretter0@google.fr",
+            "gender":"m",
+            "image":"",
+            "password":"123456",
+            "posts":[
+                {
+                    "id":1,
+                    "title":"aa",
+                    "text":"asddasd  asa d as",
+                    "imags":["",""],
+                    "video":"",
+                    "date":"",
+                    "likes":5,
+                    "dislikes":5,
+                    "comments":[
+                        {
+                            "user-id":6,
+                            "text":"",
+                            "date":""
+
+                        }
+                    ]
+                },
+                {
+                    "id":2,
+                    "title":"bbb",
+                    "text":"sdssasfasa sdfa f",
+                    "imags":["",""],
+                    "video":"",
+                    "date":"",
+                    "likes":5,
+                    "dislikes":5,
+                    "comments":[
+                        {
+                            "user-id":6,
+                            "text":"",
+                            "date":""
+
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":2,
+            "first_name":"hgfdg",
+            "last_name":"gttt",
+            "email":"hgf@j.fr",
+            "gender":"f",
+            "image":"",
+            "password":"654321",
+            "posts":[
+                {
+                    "id":1,
+                    "title":"c",
+                    "text":"era ra a aafaetset",
+                    "imags":["",""],
+                    "video":"",
+                    "date":"",
+                    "likes":5,
+                    "dislikes":5,
+                    "comments":[
+                        {
+                            "user-id":6,
+                            "text":"",
+                            "date":""
+
+                        }
+                    ]
+                },
+                {
+                    "id":2,
+                    "title":"d",
+                    "text":"df afsfa af  f",
+                    "imags":["",""],
+                    "video":"",
+                    "date":"",
+                    "likes":5,
+                    "dislikes":5,
+                    "comments":[
+                        {
+                            "user-id":6,
+                            "text":"",
+                            "date":""
+
+                        },
+                        {
+                            "user-id":2,
+                            "text":"",
+                            "date":""
+
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+* ,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-image: url(images/Rectangle_2.png);
+    background-size: contain;
+    width: 100vw;
+    height: 400px;
+    padding: 20px;
+}
+header>h3{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+}
+.profileBox{
+    display:inline-block;
+    margin-right: 100px;
+    padding: 30px 10px;
+    width: 25%;
+    max-width: 220px;
+}
+.profileBox2{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.profileBox2 .profileImg img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    box-shadow: 0px 7px 35px
+}
+.profileBox2>.profileName{
+    color: #393F45;
+}
+.main{
+    display: flex;
+    width: 100%;
+    
+}
+.Info{
+    display:inline-block; 
+    padding: 30px 50px ;
+    width: 60%;
+}
+.Info>h1{
+    font-size: 57px;
+    color: #191C1F;
+    text-align: left;
+}
+.text{
+    width: 90%;
+    text-align: center; 
+    margin-top: 40px;
+}
+p{
+    font-size: 25px;
+    letter-spacing: -0.892857px;
+    margin-top: 30px;    
+    color: #484E56;
+    text-align: justify;
+    
+}
